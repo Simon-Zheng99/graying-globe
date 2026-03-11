@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.env
+public/data/population.json
+public/data/child_population_change.json

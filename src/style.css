@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #353535;
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+}
+
+.title-panel {
+  text-align: center;
+  color: white;
+}
+
+.title-panel h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #f0f0f0;
+}
+
+.title-panel p {
+  font-size: 18px;
+  color: #d0d0d0;
+  margin-bottom: 32px;
+}
+
+.scroll-hint {
+  font-size: 16px;
+  color: #a0a0a0;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(8px); }
+}
