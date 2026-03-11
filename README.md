@@ -43,3 +43,9 @@ As you scroll, the population pyramid updates automatically to reflect each era.
 ### World Map
 - Color-coded map showing whether each country's 0–4 age group population is increasing (light gray) or decreasing (dark gray) in the selected year
 - Updates in sync with the year slider
+
+### Running the App
+```bash
+npm run dev
+```
+Then open `http://localhost:3000/` in your browser.
