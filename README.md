@@ -45,6 +45,7 @@ As you scroll, the population pyramid updates automatically to reflect each era.
 - Updates in sync with the year slider
 
 ### Running the App
+Ope a new terminal and run
 ```bash
 npm run dev
 ```
