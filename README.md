@@ -21,8 +21,8 @@ As you scroll, the population pyramid updates automatically to reflect each era.
 ### Interactive Population Pyramid
 - Mirrored bar chart showing male (left) and female (right) population by age group
 - Expressed as a percentage of total population for cross-country comparability
-- **Ghost bars** show the population distribution from 10 years prior, making change immediately visible
-- Fixed x-axis scale (-10% to +10%) ensures consistent comparisons across countries and years
+- **Ghost bars** show the population distribution from 10 years prior
+- Fixed x-axis scale (-10% to +10%)
 
 ### Year Slider and Play Button
 - Drag the slider to explore any year from 1960 to 2050
@@ -41,7 +41,7 @@ As you scroll, the population pyramid updates automatically to reflect each era.
 - Click anywhere on the graph to jump the pyramid to that year
 
 ### World Map
-- Color-coded map showing whether each country's 0–4 age group population is increasing (light gray) or decreasing (dark gray) in the selected year
+- Color-coded map showing whether each country's 0–4 age group population is increasing (white) or decreasing (black) in the selected year
 - Updates in sync with the year slider
 
 ### Running the App
