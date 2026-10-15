@@ -21,7 +21,7 @@ const ageGroups = [
 ]
 
 async function loadData() {
-  const res = await fetch('/data/population.json')
+  const res = await fetch(import.meta.env.BASE_URL + 'data/population.json')
   data = await res.json()
   console.log('Data loaded!', Object.keys(data.countries).length, 'countries')
   console.log('Sample AFG 1960:', data.countries['AFG']?.years[1960])

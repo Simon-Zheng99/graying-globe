@@ -3,3 +3,4 @@ dist/
 .env
 public/data/population.json
 public/data/child_population_change.json
+.vite

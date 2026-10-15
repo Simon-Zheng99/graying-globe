@@ -19,7 +19,7 @@ const HEIGHT = WIDTH * 0.5
 async function loadData() {
   const [topoRes, changeRes, isoRes] = await Promise.all([
     fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'),
-    fetch('/data/child_population_change.json'),
+    fetch(import.meta.env.BASE_URL + 'data/child_population_change.json'),
     fetch('https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.json')
   ])
 

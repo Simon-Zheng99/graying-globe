@@ -24,7 +24,7 @@ const milestones = [
 ]
 
 async function loadData() {
-  const res = await fetch('/data/population.json')
+  const res = await fetch(import.meta.env.BASE_URL + 'data/population.json')
   const json = await res.json()
   const country = json.countries[props.countryCode]
   if (!country) return

@@ -15,7 +15,7 @@ const countries = ref<{ code: string, name: string }[]>([])
 let interval: number | null = null
 
 async function loadCountries() {
-  const res = await fetch('/data/population.json')
+  const res = await fetch(import.meta.env.BASE_URL + 'data/population.json')
   const data = await res.json()
   countries.value = Object.entries(data.countries)
     .map(([code, val]: [string, any]) => ({ code, name: (val as any).name, years: (val as any).years }))
